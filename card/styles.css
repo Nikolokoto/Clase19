@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    width: 100vw;
+}
+
+.main-container {
+    box-sizing: border-box;
+    margin: 100px 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #333;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 320px;
+}
+
+#img-container {
+    border-radius: 50%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    left: calc(50% - 75.2835px);
+    overflow: hidden;
+    position: absolute;
+    top: -80px;
+    width: 100px;
+}
+
+.img-pizza {
+    max-width: 151%;
+}
+
+.title {
+    font-family: sans-serif;
+    text-align: center;
+    z-index: 9;
+}
+
+ul {
+    list-style: none;
+}
+
+.ingredients:hover {
+    color: crimson;
+}
